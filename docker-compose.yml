@@ -23,3 +23,4 @@ services:
     tty: true
     depends_on:
       - backend
+
