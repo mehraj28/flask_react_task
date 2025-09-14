@@ -1,0 +1,93 @@
+.task-list {
+  margin-top: 20px;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-card h3 {
+  margin: 0 0 10px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Edit/Delete buttons */
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-actions button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease-in-out;
+}
+
+.task-actions .edit-btn {
+  background: #28a745;
+  color: white;
+}
+
+.task-actions .edit-btn:hover {
+  background: #218838;
+}
+
+.task-actions .delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.task-actions .delete-btn:hover {
+  background: #a71d2a;
+}
+
+/* Comment section */
+.comment-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.comment-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.comment-btn:hover {
+  background: #0056b3;
+}
+
+/* Comment list */
+.comment-list {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.comment-list li {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
