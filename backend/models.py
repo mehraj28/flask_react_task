@@ -14,3 +14,4 @@ class Comment(db.Model):
     content = db.Column(db.String(200), nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     task_id = db.Column(db.Integer, db.ForeignKey("tasks.id"), nullable=False)
+

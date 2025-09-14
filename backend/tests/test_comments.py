@@ -83,3 +83,4 @@ def test_task_list_after_creation(client):
     assert len(tasks) == 1
     assert tasks[0]["title"] == "Sample Task"
     assert tasks[0]["description"] is None
+
